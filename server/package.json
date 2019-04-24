@@ -1,0 +1,31 @@
+{
+  "name": "hacktivoverflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emrido/hacktivoverflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emrido/hacktivoverflow/issues"
+  },
+  "homepage": "https://github.com/emrido/hacktivoverflow#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.3"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0"
+  }
+}
